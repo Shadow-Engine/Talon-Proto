@@ -1,0 +1,27 @@
+#include <windows.h>
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILETYPE VFT_APP
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904E4"
+        {
+            VALUE "CompanyName", "YourCompany"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "FileDescription", "File Description"
+            VALUE "InternalName", "Internal"
+            VALUE "LegalCopyright", "YourCompany"
+            VALUE "LegalTrademarks", "YourCompany"
+            VALUE "OriginalFilename", "whatever.exe"
+            VALUE "ProductName", "Your Product"
+            VALUE "ProductVersion", "1.0.0.0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 1252
+    }
+}
